@@ -1,0 +1,24 @@
+.card{
+    height: 500px;
+    width: 500px;
+    background-color: beige;
+    position:relative   ; 
+    top: 10px;
+    display: grid;
+}
+
+.dr{
+    height: 300px;
+    width: 500px;
+   /* display: inline; */
+}
+.txt{
+text-align: center;
+
+}
+.grid{
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px;
+}
